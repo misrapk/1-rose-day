@@ -1,4 +1,5 @@
-import { SpeedInsights } from "@vercel/speed-insights/next";
+
+
 const rose = document.getElementById("rose");
 const message = document.getElementById("message");
 const counterText = document.getElementById("counter");
@@ -6,6 +7,7 @@ const warningText = document.getElementById("warning");
 const music = document.getElementById("bg-music");
 const canvas = document.getElementById("petals");
 const ctx = canvas.getContext("2d");
+
 
 let petals = [];
 let animationStarted = false;
