@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/next";
 const rose = document.getElementById("rose");
 const message = document.getElementById("message");
 const counterText = document.getElementById("counter");
